@@ -478,7 +478,7 @@ public class APsubjects extends javax.swing.JFrame {
                                                 .addComponent(jLabel81)
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                                 .addComponent(studentName2, javax.swing.GroupLayout.PREFERRED_SIZE, 221, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 21, Short.MAX_VALUE)
                                                 .addComponent(jLabel82)
                                                 .addGap(28, 28, 28)
                                                 .addComponent(studentID2, javax.swing.GroupLayout.PREFERRED_SIZE, 254, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -513,7 +513,7 @@ public class APsubjects extends javax.swing.JFrame {
                                                             .addComponent(CC189, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                             .addComponent(CC190, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                             .addComponent(CC191, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                                                .addGap(0, 297, Short.MAX_VALUE)))))
+                                                .addGap(0, 0, Short.MAX_VALUE)))))
                                 .addGroup(jLayeredPane3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(jLayeredPane3Layout.createSequentialGroup()
                                         .addGap(12, 12, 12)
@@ -523,9 +523,10 @@ public class APsubjects extends javax.swing.JFrame {
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addComponent(deletebtn2)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(printbtn2))
-                                    .addGroup(jLayeredPane3Layout.createSequentialGroup()
-                                        .addGap(198, 198, 198)
+                                        .addComponent(printbtn2)
+                                        .addContainerGap())
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jLayeredPane3Layout.createSequentialGroup()
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addGroup(jLayeredPane3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(jLabel87)
                                             .addComponent(CC193, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -535,8 +536,8 @@ public class APsubjects extends javax.swing.JFrame {
                                             .addComponent(CC196, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(CC199, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(CC197, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(CC198, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                                .addContainerGap())))
+                                            .addComponent(CC198, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addGap(64, 64, 64))))))
                     .addGroup(jLayeredPane3Layout.createSequentialGroup()
                         .addGap(165, 165, 165)
                         .addGroup(jLayeredPane3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -779,15 +780,14 @@ public class APsubjects extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 1119, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 1089, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 987, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 864, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
 
@@ -882,71 +882,7 @@ public class APsubjects extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextField CC100;
-    private javax.swing.JTextField CC101;
     private javax.swing.JTextField CC102;
-    private javax.swing.JTextField CC107;
-    private javax.swing.JTextField CC108;
-    private javax.swing.JTextField CC109;
-    private javax.swing.JTextField CC110;
-    private javax.swing.JTextField CC111;
-    private javax.swing.JTextField CC112;
-    private javax.swing.JTextField CC113;
-    private javax.swing.JTextField CC114;
-    private javax.swing.JTextField CC115;
-    private javax.swing.JTextField CC116;
-    private javax.swing.JTextField CC117;
-    private javax.swing.JTextField CC118;
-    private javax.swing.JTextField CC119;
-    private javax.swing.JTextField CC120;
-    private javax.swing.JTextField CC121;
-    private javax.swing.JTextField CC122;
-    private javax.swing.JTextField CC123;
-    private javax.swing.JTextField CC124;
-    private javax.swing.JTextField CC125;
-    private javax.swing.JTextField CC126;
-    private javax.swing.JTextField CC127;
-    private javax.swing.JTextField CC128;
-    private javax.swing.JTextField CC129;
-    private javax.swing.JTextField CC130;
-    private javax.swing.JTextField CC131;
-    private javax.swing.JTextField CC132;
-    private javax.swing.JTextField CC133;
-    private javax.swing.JTextField CC134;
-    private javax.swing.JTextField CC135;
-    private javax.swing.JTextField CC136;
-    private javax.swing.JTextField CC137;
-    private javax.swing.JTextField CC138;
-    private javax.swing.JTextField CC139;
-    private javax.swing.JTextField CC140;
-    private javax.swing.JTextField CC141;
-    private javax.swing.JTextField CC142;
-    private javax.swing.JTextField CC143;
-    private javax.swing.JTextField CC144;
-    private javax.swing.JTextField CC145;
-    private javax.swing.JTextField CC146;
-    private javax.swing.JTextField CC147;
-    private javax.swing.JTextField CC148;
-    private javax.swing.JTextField CC149;
-    private javax.swing.JTextField CC150;
-    private javax.swing.JTextField CC151;
-    private javax.swing.JTextField CC152;
-    private javax.swing.JTextField CC153;
-    private javax.swing.JTextField CC154;
-    private javax.swing.JTextField CC155;
-    private javax.swing.JTextField CC156;
-    private javax.swing.JTextField CC157;
-    private javax.swing.JTextField CC158;
-    private javax.swing.JTextField CC159;
-    private javax.swing.JTextField CC160;
-    private javax.swing.JTextField CC161;
-    private javax.swing.JTextField CC162;
-    private javax.swing.JTextField CC163;
-    private javax.swing.JTextField CC164;
-    private javax.swing.JTextField CC165;
-    private javax.swing.JTextField CC166;
-    private javax.swing.JTextField CC167;
-    private javax.swing.JTextField CC168;
     private javax.swing.JTextField CC169;
     private javax.swing.JTextField CC170;
     private javax.swing.JTextField CC171;
@@ -978,68 +914,9 @@ public class APsubjects extends javax.swing.JFrame {
     private javax.swing.JTextField CC197;
     private javax.swing.JTextField CC198;
     private javax.swing.JTextField CC199;
-    private javax.swing.JButton deletebtn;
-    private javax.swing.JButton deletebtn1;
     private javax.swing.JButton deletebtn2;
-    private javax.swing.JButton editbtn;
-    private javax.swing.JButton editbtn1;
     private javax.swing.JButton editbtn2;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel19;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
-    private javax.swing.JLabel jLabel23;
-    private javax.swing.JLabel jLabel24;
-    private javax.swing.JLabel jLabel25;
-    private javax.swing.JLabel jLabel26;
-    private javax.swing.JLabel jLabel27;
-    private javax.swing.JLabel jLabel28;
-    private javax.swing.JLabel jLabel29;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel30;
-    private javax.swing.JLabel jLabel31;
-    private javax.swing.JLabel jLabel32;
-    private javax.swing.JLabel jLabel33;
-    private javax.swing.JLabel jLabel34;
-    private javax.swing.JLabel jLabel35;
-    private javax.swing.JLabel jLabel36;
-    private javax.swing.JLabel jLabel37;
-    private javax.swing.JLabel jLabel38;
-    private javax.swing.JLabel jLabel39;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel40;
-    private javax.swing.JLabel jLabel41;
-    private javax.swing.JLabel jLabel42;
-    private javax.swing.JLabel jLabel43;
-    private javax.swing.JLabel jLabel44;
-    private javax.swing.JLabel jLabel45;
-    private javax.swing.JLabel jLabel46;
-    private javax.swing.JLabel jLabel47;
-    private javax.swing.JLabel jLabel48;
-    private javax.swing.JLabel jLabel49;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel50;
-    private javax.swing.JLabel jLabel51;
-    private javax.swing.JLabel jLabel52;
-    private javax.swing.JLabel jLabel53;
-    private javax.swing.JLabel jLabel54;
-    private javax.swing.JLabel jLabel55;
-    private javax.swing.JLabel jLabel56;
-    private javax.swing.JLabel jLabel57;
-    private javax.swing.JLabel jLabel58;
     private javax.swing.JLabel jLabel59;
-    private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel60;
     private javax.swing.JLabel jLabel61;
     private javax.swing.JLabel jLabel62;
@@ -1050,7 +927,6 @@ public class APsubjects extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel67;
     private javax.swing.JLabel jLabel68;
     private javax.swing.JLabel jLabel69;
-    private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel70;
     private javax.swing.JLabel jLabel71;
     private javax.swing.JLabel jLabel72;
@@ -1061,7 +937,6 @@ public class APsubjects extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel77;
     private javax.swing.JLabel jLabel78;
     private javax.swing.JLabel jLabel79;
-    private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel80;
     private javax.swing.JLabel jLabel81;
     private javax.swing.JLabel jLabel82;
@@ -1070,58 +945,23 @@ public class APsubjects extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel85;
     private javax.swing.JLabel jLabel86;
     private javax.swing.JLabel jLabel87;
-    private javax.swing.JLabel jLabel9;
-    private javax.swing.JLayeredPane jLayeredPane1;
-    private javax.swing.JLayeredPane jLayeredPane2;
     private javax.swing.JLayeredPane jLayeredPane3;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane10;
     private javax.swing.JScrollPane jScrollPane11;
     private javax.swing.JScrollPane jScrollPane12;
     private javax.swing.JScrollPane jScrollPane13;
-    private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JScrollPane jScrollPane3;
-    private javax.swing.JScrollPane jScrollPane4;
-    private javax.swing.JScrollPane jScrollPane5;
-    private javax.swing.JScrollPane jScrollPane6;
-    private javax.swing.JScrollPane jScrollPane7;
-    private javax.swing.JScrollPane jScrollPane8;
-    private javax.swing.JScrollPane jScrollPane9;
-    private javax.swing.JTable jTable1;
     private javax.swing.JTable jTable10;
     private javax.swing.JTable jTable11;
     private javax.swing.JTable jTable12;
-    private javax.swing.JTable jTable2;
-    private javax.swing.JTable jTable3;
-    private javax.swing.JTable jTable4;
-    private javax.swing.JTable jTable5;
-    private javax.swing.JTable jTable6;
-    private javax.swing.JTable jTable7;
-    private javax.swing.JTable jTable8;
     private javax.swing.JTable jTable9;
-    private javax.swing.JTextField jTextField10;
     private javax.swing.JTextField jTextField11;
     private javax.swing.JTextField jTextField12;
     private javax.swing.JTextField jTextField13;
     private javax.swing.JTextField jTextField14;
-    private javax.swing.JTextField jTextField3;
-    private javax.swing.JTextField jTextField4;
-    private javax.swing.JTextField jTextField5;
-    private javax.swing.JTextField jTextField6;
-    private javax.swing.JTextField jTextField7;
-    private javax.swing.JTextField jTextField8;
-    private javax.swing.JTextField jTextField9;
-    private javax.swing.JButton printbtn;
-    private javax.swing.JButton printbtn1;
     private javax.swing.JButton printbtn2;
-    private javax.swing.JTextField studentID;
-    private javax.swing.JTextField studentID1;
     private javax.swing.JTextField studentID2;
-    private javax.swing.JTextField studentName;
-    private javax.swing.JTextField studentName1;
     private javax.swing.JTextField studentName2;
-    private javax.swing.JButton submitbtn;
-    private javax.swing.JButton submitbtn1;
     private javax.swing.JButton submitbtn2;
     // End of variables declaration//GEN-END:variables
 }
