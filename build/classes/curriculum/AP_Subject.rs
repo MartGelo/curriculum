@@ -1,0 +1,4 @@
+curriculum_system.AP_Subject
+curriculum_system.AP_Subject$2
+curriculum_system.AP_Subject$1
+curriculum_system.AP_Subject$3

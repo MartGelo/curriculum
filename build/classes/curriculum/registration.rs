@@ -1,0 +1,11 @@
+curriculum_system.registration$4
+curriculum_system.registration$5
+curriculum_system.registration$6
+curriculum_system.registration$7
+curriculum_system.registration$1
+curriculum_system.registration$2
+curriculum_system.registration$10
+curriculum_system.registration$3
+curriculum_system.registration
+curriculum_system.registration$8
+curriculum_system.registration$9
